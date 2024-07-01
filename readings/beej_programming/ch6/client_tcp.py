@@ -13,7 +13,16 @@ def client_tcp(*, host: str, port: int) -> None:
         )
 
         for remote_addr in remote_addrinfo:
-            family, socket_type, proto, _, (remote_host, remote_port) = remote_addr
+            family, socket_type, proto, _, host_and_port = remote_addr
+
+            remote_host, remote_port = host, port
+
+            if len(host_and_port) == 2:
+                remote_host, remote_port = host_and_port
+
+            elif len(host_and_port) == 4:
+                remote_host, remote_port = host_and_port[:2]
+
             print(
                 f"family={family}, socket_type={socket_type}, prototype={proto}, remote_host={remote_host}, remote_port={remote_port}"
             )
