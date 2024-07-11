@@ -10,8 +10,10 @@ I also tried Go and Rust, but both languages abstract the flows, whereas Python'
 ## Reference
 
 - `socket` library: https://docs.python.org/3/library/socket.html
+- `socketserver` library: https://docs.python.org/3/library/socketserver.html
+- `select` library: https://docs.python.org/3/library/select.html
+- `ssl` library: https://docs.python.org/3/library/ssl.html
 - the official "HOWTO" tutorial: https://docs.python.org/3/howto/sockets.html
-- guide by freeCodeCamp: https://www.freecodecamp.org/news/socket-programming-in-python/
 - guide by Real Python: https://realpython.com/python-sockets/
 - Beej's Guide to Network Programming book: https://beej.us/guide/bgnet/
 - Beej's Guide to Networking Concepts: https://beej.us/guide/bgnet0/
