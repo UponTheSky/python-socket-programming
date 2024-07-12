@@ -13,6 +13,7 @@ I also tried Go and Rust, but both languages abstract the flows, whereas Python'
 - `socketserver` library: https://docs.python.org/3/library/socketserver.html
 - `select` library: https://docs.python.org/3/library/select.html
 - `ssl` library: https://docs.python.org/3/library/ssl.html
+- `http` library: https://docs.python.org/3/library/http.html
 - the official "HOWTO" tutorial: https://docs.python.org/3/howto/sockets.html
 - guide by Real Python: https://realpython.com/python-sockets/
 - Beej's Guide to Network Programming book: https://beej.us/guide/bgnet/
